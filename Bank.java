@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 public class Bank {
 
-  public static void Bank (String args[]){
+  public static void userBank(){
         // Deposit or Withdrawal
       Scanner input = new Scanner(System.in);
       System.out.println( " Would you like to Deposit or Withdrawal Money? Press 1 for Deposit and 2 for Withdrawal");

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Login {
-    public static void Login(String args[]) {
+    public static void userLogin(){
         Scanner input = new Scanner(System.in);
         System.out.println(" Please enter your PIN");
         System.out.println();
@@ -20,4 +20,4 @@ public class Login {
 
     }
 
-}
+    }
