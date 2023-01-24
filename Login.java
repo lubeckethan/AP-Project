@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Login {
-    public static void main(String args[]) {
+    public static void Login(String args[]) {
         Scanner input = new Scanner(System.in);
         System.out.println(" Please enter your PIN");
         System.out.println();
