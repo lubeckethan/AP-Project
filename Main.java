@@ -1,13 +1,17 @@
+import java.util.Scanner;
+
 public class Main {
 
+    Scanner input = new Scanner(System.in);
 public static void main( String[] args){
-
     //Login
     Login.userLogin();
-    //Account
-    Bank.userBank();
-    Bank.userWithdraw();
-    Bank.userDeposit();
+
+
+    System.out.println(" Welcome to the ATM. What would you like to do?");
+    System.out.println(" Press '1' to make a deposit");
+    System.out.println(" Press '2' to make a withdrawal");
+
 
 }
 

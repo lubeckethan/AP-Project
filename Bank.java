@@ -42,7 +42,7 @@ public class Bank {
 
         Balance -= Withdraw;
         System.out.println(" Transaction successful. Your new balance is " + Balance);
-        while( )
+
     }
 
     public static void userDeposit() {
@@ -66,7 +66,7 @@ public class Bank {
             System.out.println(" Transaction successful. Your new balance is " + Balance);
 
 
-        } while (
+        } while ( Deposit > Balance);
 
     }
 
