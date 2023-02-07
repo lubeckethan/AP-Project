@@ -17,8 +17,8 @@ public static void main( String[] args){
         System.out.println("What would you like to do?");
         int choice = input.nextInt();
         switch(choice){
-            case 1: NoteUtilities.addNote(); break;
-            case 2: NoteUtilities.displayNotes(); break;
+            case 1: Bank.userDeposit(); break;
+            case 2: Bank.userWithdraw(); break;
 
             default: System.out.println("Sorry - I couldn't understand that.  Please try again."); break;
         }
