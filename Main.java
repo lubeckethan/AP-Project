@@ -14,29 +14,35 @@ public class Main {
         System.out.println(" Press '2' to make a withdrawal");
 
 
-    }
+
 
     boolean run = true;
-        do
 
-    {
-        // Take the user's choice and process it accordingly
-        System.out.println("What would you like to do?");
-        int choice = input.nextInt();
-        switch (choice) {
-            case 1:
-                Bank.userDeposit();
-                break;
-            case 2:
-                Bank.userWithdraw();
-                break;
+ do {
 
-            default:
-                System.out.println("Sorry - I couldn't understand that.  Please try again.");
-                break;
+     // Take the user's choice and process it accordingly
+     System.out.println("What would you like to do?");
+     int choice = input.nextInt();
+     switch (choice) {
+         case 1:
+             Bank.userDeposit();
+            System.out.println("How much would you like to Deposit? ====>");
+             break;
+         case 2:
+             Bank.userWithdraw();
+             System.out.println("How much would you like to Withdraw? ====>");
+             break;
+
+         default:
+             System.out.println("Sorry - I couldn't understand that.  Please try again.");
+             break;
+     }
+
+     }
+     while (run) ;
+
         }
 
 
-    }while(run);
 
-}
+    }
