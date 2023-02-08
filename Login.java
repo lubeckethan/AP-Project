@@ -1,6 +1,26 @@
 import java.util.Scanner;
 public class Login {
+
+    public static void createPIN(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please create your PIN.");
+
+        int newPin = input.nextLine();
+
+        noteList[lastNote] = newPin;
+
+
+
+
+
+
+
+
+    }
+
+
     public static void userLogin(){
+
         Scanner input = new Scanner(System.in);
         System.out.println(" Please enter your PIN");
         System.out.println();
@@ -22,10 +42,8 @@ public class Login {
 
     }
 
-    int numberOfChristmasGifts[];
-        numberOfChristmasGifts = new int [2];
 
-                for (int k= 0;  k< numberOfChristmasGifts.length; k++) {
-        numberOfChristmasGifts[k] = 26;
-
-        System.out.println( numberOfChristmasGifts[k]);
+        System.out.println("Please type in the note you would like to add below:");
+        String newNote = input.nextLine();
+        noteList[lastNote] = newNote;
+        lastNote++;
