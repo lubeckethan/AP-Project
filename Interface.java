@@ -4,10 +4,6 @@ public class Interface {
 
 
 
-        //Account
-        Bank.userBank();
-
-
 
     }
 }

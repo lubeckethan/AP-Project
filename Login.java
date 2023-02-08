@@ -7,7 +7,7 @@ public class Login {
         int pinList[]  = new int[9999];
         int lastPin = 0;
 
-        System.out.println("Please create your PIN.");
+        System.out.println("Please create your 4-digit PIN. ====>");
 
         int newPin = input.nextInt();
         pinList[lastPin] = newPin;
