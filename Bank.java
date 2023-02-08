@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 public class Bank {
 
+    // Create where the previous amount deposited/withdrawed will be taken into account with further deposits.
 
     public static void userWithdraw() {
         // User inputs number to withdraw and withdraws from Balance
@@ -33,7 +34,7 @@ public class Bank {
             Deposit = input.nextDouble();
 
             Balance += Deposit;
-            System.out.println(" Transaction successful. Your new balance is " + Balance);
+            System.out.println(" Transaction successful. Your new balance is " + "$" + Balance);
 
 
 
