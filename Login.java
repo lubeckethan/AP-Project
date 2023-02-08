@@ -21,3 +21,11 @@ public class Login {
     }
 
     }
+
+    int numberOfChristmasGifts[];
+        numberOfChristmasGifts = new int [2];
+
+                for (int k= 0;  k< numberOfChristmasGifts.length; k++) {
+        numberOfChristmasGifts[k] = 26;
+
+        System.out.println( numberOfChristmasGifts[k]);
