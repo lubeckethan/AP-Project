@@ -1,30 +1,22 @@
 import java.util.Scanner;
 public class Login {
 
-    public static void createPIN(){
+
+    public static void userLogin(){
         Scanner input = new Scanner(System.in);
+        int pinList[]  = new int[9999];
+        int lastPin = 0;
+
         System.out.println("Please create your PIN.");
 
         int newPin = input.nextLine();
-
-        noteList[lastNote] = newPin;
-
+        pinList[lastPin] = newPin;
 
 
-
-
-
-
-
-    }
-
-
-    public static void userLogin(){
-
-        Scanner input = new Scanner(System.in);
+        Scanner pinInput = new Scanner(System.in);
         System.out.println(" Please enter your PIN");
         System.out.println();
-        int pin = 0;
+        int pin = newPin;
 
         do
         {
@@ -43,7 +35,3 @@ public class Login {
     }
 
 
-        System.out.println("Please type in the note you would like to add below:");
-        String newNote = input.nextLine();
-        noteList[lastNote] = newNote;
-        lastNote++;
