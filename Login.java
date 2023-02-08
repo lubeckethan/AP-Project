@@ -9,7 +9,7 @@ public class Login {
 
         System.out.println("Please create your PIN.");
 
-        int newPin = input.nextLine();
+        int newPin = input.nextInt();
         pinList[lastPin] = newPin;
 
 
@@ -23,11 +23,11 @@ public class Login {
             System.out.println(" Enter your PIN ====>");
             pin = input.nextInt();
             System.out.println();
-            if (pin != 1234)
+            if (pin != newPin)
                 System.out.println(" Incorrect PIN. Please try again.");
             System.out.println();
         }
-        while ( pin != 1234);
+        while ( pin != newPin);
         System.out.println("Welcome");
 
     }
