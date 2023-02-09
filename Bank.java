@@ -7,8 +7,9 @@ public class Bank {
     public static void userWithdraw() {
         // User inputs number to withdraw and withdraws from Balance
         Scanner input = new Scanner(System.in);
-        double Withdraw;
-        double Balance = 1392.42;
+        double Withdraw = 0;
+        double Balance = 1392.42 - Withdraw;
+        System.out.println("Your current balance is " + "$" + Balance);
         // Make sure do while loop works if try to withdraw more than balance. break somewhere
 
         do {
@@ -27,8 +28,9 @@ public class Bank {
     public static void userDeposit() {
         // User inputs number to withdraw and withdraws from Balance
         Scanner input = new Scanner(System.in);
-        double Deposit;
-        double Balance = 1392.42;
+        double Deposit = 0;
+        double Balance = 1392.42 + Deposit;
+        System.out.println("Your current balance is " + "$" +  Balance);
         // Make sure do while loop works if try to withdraw more than balance. break somewhere
 
             Deposit = input.nextDouble();
