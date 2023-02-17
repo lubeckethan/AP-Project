@@ -3,6 +3,7 @@ public class Login {
 
 
     public static void userLogin(){
+      // Create and Store Pin
         Scanner input = new Scanner(System.in);
         int pinList[]  = new int[9999];
         int lastPin = 0;
@@ -17,7 +18,7 @@ public class Login {
         System.out.println(" Please enter your PIN");
         System.out.println();
         int pin = newPin;
-
+        // Ask for Pin - correct/incorrect
         do
         {
             System.out.println(" Enter your PIN ====>");

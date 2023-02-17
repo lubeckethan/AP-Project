@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 public class Bank {
 
-    // Create where the previous amount deposited/withdrawed will be taken into account with further deposits.
+
 
     public static void userWithdraw() {
         // User inputs number to withdraw and withdraws from Balance
@@ -10,7 +10,7 @@ public class Bank {
         double Withdraw = 0;
         double Balance = 1392.42 - Withdraw;
         System.out.println("Your current balance is " + "$" + Balance);
-        // Make sure do while loop works if try to withdraw more than balance. break somewhere
+
 
         do {
             Withdraw = input.nextDouble();
@@ -26,7 +26,7 @@ public class Bank {
     }
 
     public static void userDeposit() {
-
+// User enters deposit amount
         Scanner input = new Scanner(System.in);
         double Deposit = 0;
         double Balance = 1392.42 + Deposit;
